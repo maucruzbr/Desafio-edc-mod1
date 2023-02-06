@@ -7,6 +7,6 @@ terraform {
   backend "s3"{
     bucket = "terraform-state-edc-desafio"
     key = "state/igti/edc/terraform.tfstate"
-    region = "sa-east-1"
+    region = "us-east-1"
   }
 }

@@ -56,10 +56,10 @@ def pipeline_rais():
                         'InstanceCount': 1,
                     }
                 ],
-                'Ec2KeyName': 'edc-igti-airflow-test',
+                'Ec2KeyName': 'edc-desafio-mod1',
                 'KeepJobFlowAliveWhenNoSteps': True,
                 'TerminationProtected': False,
-                'Ec2SubnetId': 'subnet-0b89cca32642f3716'
+                'Ec2SubnetId': 'subnet-0c2af8c929f0b8de8'
             },
 
             Applications=[{'Name': 'Spark'}],

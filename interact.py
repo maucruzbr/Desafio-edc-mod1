@@ -11,4 +11,4 @@ diretorio = '.\data'
 
 for filename in os.listdir(diretorio):
     caminho_arquivo = os.path.join(diretorio, filename)
-    s3_client.upload_file(caminho_arquivo, nome_bucket, filename)
+    s3_client.upload_file(caminho_arquivo, nome_bucket, 'raw-data/rais'+filename)
